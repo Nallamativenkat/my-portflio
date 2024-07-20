@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    
+    <style>
+         body{
+            margin: 0%;
+            padding: 0%;
+         }
+        .block1,.block2,.block3,.block4,.block5,.block6,.block7,.block8,.block9{
+            background-color: black;
+           
+             
+        }
+        .block1{
+            display: grid;
+            background-image: url(./WhatsApp\ Image\ 2024-07-20\ at\ 01.32.08_001c6590.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        @media screen and (max-width:991px) {
+            .block1{
+                  height: 50vh;
+            }
+        }
+        
+        .head {
+            color: white;
+            font-size: 150%;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            list-style: none;
+            justify-content: center;
+        }
+        
+        .heada{
+            padding-left: 10%;
+            padding-top: 20%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 150%;
+        }
+        .headtext1{
+            
+            font-size: 110%;
+        }
+        .headtext2{
+            font-size: 300%;
+            text-shadow: 2px 2px 10px black;
+        }
+        .headtext3{
+            
+            font-size: 110%;
+            font-style: italic;
+            
+        }
+        .headtext4{
+            color: whitesmoke;
+             border: 2px solid rgb(142, 236, 18);
+             box-shadow: 2px 2px 10px rgb(255, 153, 0), -2px -2px 10px rgb(80, 210, 20);
+             text-align: center;
+             border-radius: 20px;
+             text-shadow: 2px 2px 10px black;
+             margin-top: 3%;
+             margin-left: 7%;
+            width: 11%;
+        }
+        .headtext5{
+            color: whitesmoke;
+               text-align: center;
+             border-radius: 20px;
+             text-shadow: 2px 2px 10px black;
+             margin-top: 3%;
+             margin-left: 7%;
+            width: 11%;
+            text-decoration: none;
+        }
+        @media screen and (max-width:991px) {
+            .headtext4{
+                 width: 30%;
+            }
+        }
+        .about{
+            padding-top: 5%;
+        }
+         .abouttext1{
+            font-size: 250%;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+         }
+         .aboutpic{
+            display: flex;
+            flex-direction: row;
+             justify-content: center;
+             padding-top: 3%;
+         }
+         .abouttext2{
+            color: aqua;
+            padding-top: 3%;
+            text-align: justify;
+            padding: 3% 3%;
+         }
+         .educationtext1{
+            padding: 5%;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         font-size: 250%;
+         }
+         .educationtext2{
+            color: white;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-evenly;
+             padding: 3% 3%;
+         } 
+          .skillstext1{
+            display: flex;
+            justify-content: center;
+          }
+          .skillstext2{
+            display: grid;
+            grid-template-rows: auto;
+            margin-top: 3%;
+            margin-left: 15%;
+          }
+          .skilstext2a{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 3%;
+          }
+          .projectimg1 a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+          }
+          .projectimg2 a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+          }
+          .projectimg3{
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            gap: 20px;
+           
+             
+          }
+          .skills1{
+            display: flex;
+            justify-content: space-between;
+          }
+          .mail{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            
+          }
+          .block6{
+             
+            padding: 10% 10%;
+          }
+          .message{
+            margin-top: -10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: black;
+            padding: 10% 10%;
+            gap: 10px;
+            width: 70%;
+          }
+          .maoncontact{
+            display: flex;
+            flex-direction: row;
+          }
+          .lastpic{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            
+          }
+          .social{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+          }
+          @media screen and (max-width:1200px) {
+            html{
+                font-size: 55%;
+            }
+        
+            .contact .row{
+                /* flex-flow: column; */
+                flex-flow: row;
+            }
+        
+            .contact .row .map iframe{
+                /* width: 100vw; */
+                width: 50vw;
+                height: 33.2rem;
+            }
+        
+            .contact .row .form-container{
+                width: 100%;
+                /* padding: 13rem 1.5rem; */
+                padding: 0rem 1.5rem;
+        
+            }
+        }
+        @media screen and (max-width:991px) {
+            section{
+                min-height: 100vh;
+                padding: 0 3%;
+                padding-top: 7.5rem;
+            }
+        }
+        
+        @media screen and (max-width:768px) {
+            header label{
+                visibility: visible;
+                opacity: 1;
+            }}
+            @media screen and (max-width:768px) {
+                .lastpic{
+                     width: 100%;
+                }
+                
+            }
+            @media screen and (max-width:768px) {
+                .projectimg1{
+                    flex-direction: column;
+                     
+                }
+                
+            }
+    </style>
+   
+</head>
+<body>
+    
+        <div class="block1" > 
+            
+            <div class="head">
+                <a href="https://x.com/VenkatV80881839" class="fa-brands fa-twitter" class="bar" style="color: whitesmoke; padding-top:15px; text-decoration:none;"></a> 
+                <a href="https://www.instagram.com/positive_soul36/" class="fa-brands fa-instagram" style="color: whitesmoke; padding-top:15px; text-decoration:none;"></a>
+                <a href="https://www.linkedin.com/in/nallamati-venkat-3673452b5/" class="fa-brands fa-linkedin" style="color: whitesmoke; padding-top:15px; text-decoration:none;"></a>
+                <a href="https://github.com/Nallamativenkat" class="fa-brands fa-github" style="color: whitesmoke; padding-top:15px; text-decoration:none;"></a>
+            </div>
+            <div class="heada">
+                <span class="headtext1">Hello, I am</span><br>
+                <span class="headtext2">Venkat Venky</span><br>
+                <span class="headtext3">Front end Designer | Developer</span>
+                <span class="headtext4" style="color: white;"><a href="./VENKAT-NALLAMATI-FlowCV-Resume-20240713.pdf" download="" class="headtext5" >Print Resume</a></span>
+            </div>
+        </div>
+        <div class="block2">
+            <div class="about">
+                <div class="abouttext1"><span style="color: red;">A</span><span>BOUT ME</span> </div>
+            </div>
+            <div class="aboutpic"><img src="./1000192619-01.jpg" alt="" class="aboutpic1a" width="20%" style="border-radius: 10px; box-shadow:2px 2px 15px red,-2px -2px 15px red "></div>
+            <div class="abouttext2">
+                <span class="aboutext2a">I am a Frontend developer , with extensive knowledge and years of experience, working in web technologies and Ui delivering quality work. I enjoy turning complex problems into simple, beautiful and intuitive designs. My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way.</span>
+            </div>
+        </div>
+        <div class="block3">
+            <div class="education">
+                <div class="educationtext1"><span style="color: red;">E</span><span style="color: whitesmoke;">ducation</span></div>
+            </div>
+            <div class="edushadow1">
+                <div class="educationtext2">
+                    <div class="educationtext2a">
+                         <span style="font-size: 130%;">Bachelor's Degree</span> <br>
+                         <span style="font-style: italic; font-size:100%;">Sasi Degree College , Velivennu</span>
+                    </div>
+                    <div class="educationtext2b">
+                         <span>2021-2024</span>
+                    </div></div>
+            </div>
+                <div class="educationtext2">
+                    <div class="educationtext2a">
+                         <span style="font-size: 130%;">Intermidate</span> <br>
+                         <span style="font-style: italic; font-size:100%;">Vikas Junior College ,  Nidd (m)</span>
+                    </div>
+                    <div class="educationtext2b">
+                         <span>2019-2021</span>
+                    </div></div> 
+                    <div class="educationtext2">
+                        <div class="educationtext2a">
+                             <span style="font-size: 130%;">S.S.C</span> <br>
+                             <span style="font-style: italic; font-size:100%;">AKRG High School , Nallajerla</span>
+                        </div>
+                        <div class="educationtext2b">
+                             <span>2018-2019</span>
+                        </div></div> 
+            </div>
+        <div class="block4">
+            <div class="skills">
+                <div class="skillstext1" style="font-size: 250%; padding-top:5%;"><span style="color: red;">S</span><span style="color: whitesmoke;">kills</span></div>
+            </div>
+            <div class="skillstext2" style="border: 2px solid red; box-shadow:2px 2px 15px red , -2px -2px 15px red; border-radius:10px; height:50%; width:70%;">
+                <div class="skilstext2a" ><li style="color: white;"> <span style="color: whitesmoke; font-size:100%;">Programming Language : Python , C</span></li><br>
+                    <span style="color: white; font-style:italic">Foundational Knowledge in Python and C language.</span>
+                  </div>
+                  <div class="skilstext2a" ><li style="color: white;"> <span style="color: whitesmoke; font-size:100%;">Scripting Languages : HTML & CSS</span></li><br>
+                    <span style="color: white; font-style:italic">Adept at writing HTML&CSS scripts to intermediate level.</span>
+                  </div>
+                  <div class="skilstext2a" ><li style="color: white;"> <span style="color: whitesmoke; font-size:100%;">Frontend Technology : Node.js</span></li><br>
+                    <span style="color: white; font-style:italic">Knowledgeable in the  frontend technology specially in Node.js</span>
+                  </div>
+            </div>
+
+        </div>
+        <div class="block5">
+            <div class="skills">
+                <div class="skillstext1" style="font-size: 250%; padding-top:5%;"><span style="color: red;">P</span><span style="color: whitesmoke;">rojects</span></div>
+                <div class="skills1" style="padding-top: 8%;">
+                    <div class="projectimg1">
+                       <a href="./Art-factory-Project/index.html" style="text-decoration: none;"> <img src="https://patersontimes.com/wp-content/uploads/2014/06/the-art-factory.jpg" alt="" width="40%" style="border-radius: 10px;">
+                        <span style="color: white;">Art Factory</span> </a></div>
+                        <div class="projectimg2">
+                    <a href="" style="text-decoration: none;"><img src="https://designshack.net/wp-content/uploads/Free-Photography-Portfolio-InDesign-Template.jpg" alt="" width="26.5%" style="border-radius: 10px;">
+                        <span style="color: white;">Portfilo</span></a>
+                    
+                </div>
+        </div>  
+        <div class="maincontact">
+            <div class="block6">
+                <div class="skillstext1" style="font-size: 250%; padding-top:-8%;"><span style="color: red;">C</span><span style="color: whitesmoke;">ontact Form</span></div><br><br>
+                
+                <div class="social">
+                    <li><div class="mail">
+                    <span style="color: red;font-size:280%;"><i class="fa-solid fa-envelope"></i></span>
+                    <span style="color: grey;">E-MAIL</span>
+                    <span style="color: white;">Venkatn0012@gmail.com</span>
+                    </div></li><br>
+                    <li> <div class="mail">
+                        <span style="color: red;font-size:280%;"><i class="fa-solid fa-phone"></i></span>
+                    <span style="color: grey;">MOBILE NO.</span>
+                    <span style="color: white;">+91 7842774730</span>
+                    </div></li><br>
+                    <li><div class="mail">
+                        <span style="color: red;font-size:280%;"><i class="fa-solid fa-calendar-days"></i></span>
+                    <span style="color: grey;">DOB</span>
+                    <span style="color: white;">25-05-2004</span>
+                    </div></li><br>
+                    <li> <div class="mail">
+                        <span style="color: red;font-size:280%;"><i class="fa-solid fa-location-dot"></i></span>
+                    <span style="color: grey;">LOCATION</span>
+                    <span style="color: white;">NIDADAVOLE</span>
+                    </div></li>
+                    </div>
+            </div>
+            <div class="lastpic">
+                <img src="./WhatsApp Image 2024-07-20 at 05.34.09_0e0d7255.jpg" alt="" width="20%" style=" box-shadow: 2px 2px 10px rgb(255, 153, 0), -2px -2px 10px rgb(80, 210, 20);
+            border-radius:10px">
+              
+            </div>
+                <div class="message">
+    
+                    <input type="text" value="" placeholder="Your Name" style="background-color: black; color:white;">
+                    <input type="text" value="" placeholder="your Email" style="background-color: black; color:white;">
+                    <textarea name="" id=""  cols="40" rows="10" placeholder="Your Message" style="background-color: black; color:white;"></textarea>
+                    <button style="background-color: red; width:20%; border-radius:10px">send</button>
+                </div>
+                  
+            </div>
+             </div>
+        </div>
+</body>
+</html>
+ 
